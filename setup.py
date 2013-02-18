@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jmbo-calendar',
-    version='0.2.2',
+    version='0.2.2.unomena.1',
     description='Jmbo calendar app.',
     long_description = open('README.rst', 'r').read() + open('AUTHORS.rst', 'r').read() + open('CHANGELOG.rst', 'r').read(),
     author='Praekelt Foundation',
@@ -11,7 +11,7 @@ setup(
     url='http://github.com/praekelt/jmbo-calendar',
     packages = find_packages(),
     install_requires = [
-        'jmbo-foundry>=1.0',
+        'jmbo>=0.3',
     ],
     tests_require=[
         'django-setuptest>=0.1.2',
